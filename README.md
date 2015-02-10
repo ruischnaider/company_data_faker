@@ -8,21 +8,21 @@ Generates Brazilian Company structure names.
 
 Use rubygems:
 
-  gem install company_data_faker
+    gem install company_data_faker
   
 Or add it to your Gemfile
 
-  group :development, :test do
-    # ...
-    gem 'company_data_faker'
-  end
+    group :development, :test do
+      # ...
+      gem 'company_data_faker'
+    end
 
 ## Usage
 
 ### Generates department names
 
-  Faker::CompanyData.department    #=> "Administrativo"
-  Faker::CompanyData.department    #=> "Financeiro"
+    Faker::CompanyData.department    #=> "Administrativo"
+    Faker::CompanyData.department    #=> "Financeiro"
 
 ### Generates team names
 
