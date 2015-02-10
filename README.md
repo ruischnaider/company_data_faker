@@ -20,18 +20,22 @@ Or add it to your Gemfile
 ## Usage
 
   ### Generates department names
+  
   Faker::CompanyData.department    #=> "Administrativo"
   Faker::CompanyData.department    #=> "Financeiro"
 
   ### Generates team names
+
     Faker::CompanyData.team    #=> "Desenvolvimento"
     Faker::CompanyData.team    #=> "Geral"
 
   ### Generates shift names
+
     Faker::CompanyData.shift    #=> "Geral"
     Faker::CompanyData.shift    #=> "Manhã"
 
   ### Generates group names
+
     Faker::CompanyData.group    #=> "Recursos Humanos"
     Faker::CompanyData.group    #=> "Administradores"
 
