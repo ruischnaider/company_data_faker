@@ -64,14 +64,15 @@ module Faker
          "Back-end",
          "Front-end",
          "Infraestrutura",
+         "Redes",
          "Informática",
          "TI",
+         "Tecnologia",
          "Design",
          "Design gráfico",
          "Design de produto",
          "Artes",
          "Publicidade",
-         "Geral",
          "Contabilidade",
          "Motoristas",
          "Mecânicos",
@@ -84,7 +85,8 @@ module Faker
          "SAC",
          "Cozinheiros",
          "Recepção",
-         "Gerentes"
+         "Gerentes",
+         "Laboratório"
         ].sample
       end
       def shift
