@@ -2,6 +2,9 @@ module Faker
   class CompanyData
     class << self
       def department
+        department_all.sample
+      end
+      def department_all
         ["Administrativo",
          "Publicidade",
          "Gráfico",
@@ -53,9 +56,12 @@ module Faker
          "Alimentação",
          "Assessoria Técnica",
          "Suporte",
-         ].sample
+        ]
       end
       def team
+        team_all.sample
+      end
+      def team_all
         ["Geral",
          "Desenvolvimento",
          "Desenvolvimento server-side",
@@ -87,22 +93,28 @@ module Faker
          "Recepção",
          "Gerentes",
          "Laboratório"
-        ].sample
+        ]
       end
       def shift
+        shift_all.sample
+      end
+      def shift_all
         [
-          "Geral",
-          "Manhã",
-          "Tarde",
-          "Noite",
-          "Matutino",
-          "Diurno",
-          "Noturno",
-          "Motoristas",
-          "Parcial"
-        ].sample
+            "Geral",
+            "Manhã",
+            "Tarde",
+            "Noite",
+            "Matutino",
+            "Diurno",
+            "Noturno",
+            "Motoristas",
+            "Parcial"
+        ]
       end
       def group
+        group_all.sample
+      end
+      def group_all
         ["Administradores",
          "Diretores",
          "Recusos Humanos",
@@ -112,9 +124,8 @@ module Faker
          "Líderes de equipe",
          "Estagiários",
          "Suporte",
-        ].sample
+        ]
       end
-
     end
   end
 end

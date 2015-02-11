@@ -48,6 +48,31 @@ Or add it to your Gemfile
     Faker::CompanyData.team_image(:male)    #=> "/home/william/dev/company_data_faker/lib/images/profile/male/12.jpg"
     Faker::CompanyData.team_image(:female)    #=> "/home/william/dev/company_data_faker/lib/images/profile/female/15.jpg"
 
+### Get array of all department names
+
+   Faker::CompanyData.department_all
+
+### Get array of all team names
+
+   Faker::CompanyData.team_all
+
+### Get array of all shift names
+
+   Faker::CompanyData.shift_all
+
+### Get array of all group names
+
+   Faker::CompanyData.group_all
+
+### Get array of all team images
+
+   Faker::CompanyData.team_image_all
+
+### Get array of all profile images by gender
+
+   Faker::CompanyData.profile_image_all(:male)
+   Faker::CompanyData.profile_image_all(:female)
+
 ## Objective
 
   Generate fake data for fake test profiles.
