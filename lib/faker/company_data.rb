@@ -29,7 +29,31 @@ module Faker
          "Jurídico-legal",
          "Contas a pagar",
          "Contas a receber",
-        ].sample
+         "Qualidade e Inovação",
+         "Direção Financeira",
+         "Direção",
+         "Financeiro",
+         "Administrativo",
+         "Secretaria-Geral",
+         "Secretaria",
+         "Geral",
+         "Recursos Humanos",
+         "Informática",
+         "Coordenação",
+         "Infraestrutura",
+         "Departamento Pessoal",
+         "Desenvolvimento",
+         "Produção",
+         "Design",
+         "Centro de processamento de dados",
+         "Recepção Geral",
+         "Recepção",
+         "Ouvidoria",
+         "Serviço de atendimento ao consumidor",
+         "Alimentação",
+         "Assessoria Técnica",
+         "Suporte",
+         ].sample
       end
       def team
         ["Geral",
@@ -58,6 +82,9 @@ module Faker
          "Analistas BI",
          "Suporte",
          "SAC",
+         "Cozinheiros",
+         "Recepção",
+         "Gerentes"
         ].sample
       end
       def shift
