@@ -1,0 +1,216 @@
+departments:
+  "Coordenação":
+  "Departamento Pessoal":
+  "Desenvolvimento":
+  "Design":
+  "Financeiro":
+  "Geral":
+  "Informática":
+  "Infraestrutura":
+  "Ouvidoria":
+  "Produção":
+  "Recepção":
+  "Recepção Geral":
+  "Recursos Humanos":
+  "Secretaria":
+  "Secretaria-Geral":
+  "Serviço de atendimento ao consumidor":
+  "Suporte":
+  "TI":
+
+"Diretores",
+         "Recusos Humanos",
+         "Gestores",
+         "Líderes de equipe",
+         "Estagiários",
+         "Suporte",
+
+
+          "Desenvolvedor",
+          "Programador",
+          "Motorista",
+          "Analista BI",
+          "Consultor BI",
+          "Analista",
+          "Consultor",
+          "Analista programador",
+          "Analista desenvolvedor",
+          "Analista de sistemas",
+          "Analista de negócios",
+          "Cozinheiro",
+          "Analista de suporte",
+          "Contador",
+          "Advogado",
+          "Secretário",
+          "Gerente",
+          "Recepcionista",
+          "Vendedor",
+          "Coordenador",
+          "Analista de infraestrutura",
+        ]
+#
+#departments:
+#Administrativo:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Publicidade:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Gráfico:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Garagem:
+#    teams: []
+#    groups: []
+#    job_titles: ["Motorista", "Mecânico"]
+#  Oficina:
+#    teams: []
+#    groups: []
+#    job_titles: ["Mecânico"]
+#  Almoxarifado:
+#    teams: []
+#    groups: []
+#    job_titles: ["Almoxarife"]
+#  Compras:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Pedidos:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Estoque:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Vendas:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Importação:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Controle bancário":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Patrimônio:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Ordem de serviço":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  BI:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Locação":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Faturamento:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Nota fiscal":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Orçamentos":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Logística":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Legal:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  Assessoria:
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Jurídico":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Jurídico-legal":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Contas a pagar":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Contas a receber":
+#    teams: []
+#    groups: []
+#    job_titles: []
+#  "Qualidade e Inovação":
+#    teams: []
+#    groups: []
+#    job_titles: ["Gerente de qualidade"]
+#  "Direção Financeira":
+#    teams: []
+#    groups: []
+#    job_titles:
+#      male: ["Diretor"]
+#      female: ["Diretora"]
+#      default: []
+#  "Direção":
+#    teams: []
+#    groups: []
+#    job_titles:
+#      male: ["Diretor"]
+#      female: ["Diretora"]
+#      default: []
+#  "Administrativo":
+#    teams: []
+#    groups: []
+#    job_titles:
+#      male: []
+#      female: []
+#      default: []
+
+#teams
+#[
+#         "Geral",
+#         "Desenvolvimento",
+#         "Desenvolvimento server-side",
+#         "Desenvolvimento client-side",
+#         "Programação",
+#         "Back-end",
+#         "Front-end",
+#         "Infraestrutura",
+#         "Redes",
+#         "Informática",
+#         "TI",
+#         "Tecnologia",
+#         "Design",
+#         "Design gráfico",
+#         "Design de produto",
+#         "Artes",
+#         "Publicidade",
+#         "Contabilidade",
+#         "Motoristas",
+#         "Mecânicos",
+#         "Vendedores",
+#         "Consultores",
+#         "Consultores BI",
+#         "Analistas",
+#         "Analistas BI",
+#         "Suporte",
+#         "SAC",
+#         "Cozinheiros",
+#         "Recepção",
+#         "Gerentes",
+#         "Laboratório"
+#        ]

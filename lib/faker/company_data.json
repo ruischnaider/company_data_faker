@@ -1,0 +1,276 @@
+{
+  "shifts": ["Geral", "Manhã", "Tarde", "Noite"],
+  "groups": ["Administradores", "Usuários", "Clientes"],
+  "cost_centers": ["Geral", "Gestão", "Projetos", "Investimentos", "Orçamentos", "Produtos", "Departamentos", "Almoxarifado", "Compras", "Manutenção", "Vigilância", "Contabilidade", "Refeitório", "Importação"],
+  "teams": [],
+  "job_titles": [
+    {
+      "name": "Gerente",
+      "unisex": true
+    },
+    {
+      "name": "Serviços gerais",
+      "unisex": true
+    }
+  ],
+  "departments": [
+    {
+      "name": "Alimentação",
+      "groups": [],
+      "teams": [
+        {
+          "name": "Cozinha",
+          "job_titles": [
+            {
+              "name": "Nutricionista",
+              "unisex": true
+            },
+            {
+              "name": "Auxiliar de cozinha",
+              "unisex": true
+            },
+            {
+              "name": "Chefe de cozinha",
+              "unisex": true
+            },
+            {
+              "name": "Cozinheiro",
+              "unisex": false,
+              "female_name": "Cozinheira"
+            },
+            {
+              "name": "Merendeiro",
+              "unisex": false,
+              "female_name": "Merendeira"
+            },
+            {
+              "name": "Técnico de nutrição",
+              "unisex": false,
+              "female_name": "Técnica de nutrição"
+            }
+          ]
+        },
+        {
+          "name": "Copa",
+          "job_titles": [
+            {
+              "name": "Copeiro",
+              "unisex": false,
+              "female_name": "Copeira"
+            }
+          ]
+        },
+        {
+          "name": "Açougue",
+          "job_titles": [
+            {
+              "name": "Açougueiro",
+              "unisex": false,
+              "female_name": "Açougueira"
+            }
+          ]
+        },
+        {
+          "name": "Qualidade",
+          "job_titles": [
+            {
+              "name": "Gerente de qualidade",
+              "unisex": true
+            },
+            {
+              "name": "Auxiliar de qualidade",
+              "unisex": true
+            },
+            {
+              "name": "Operador de qualidade",
+              "unisex": false,
+              "female_name": "Operadora de qualidade"
+            }
+          ]
+        },
+        {
+          "name": "Produção",
+          "job_titles": [
+            {
+              "name": "Gerente de produção",
+              "unisex": true
+            },
+            {
+              "name": "Coordenador de produção",
+              "unisex": false,
+              "female_name": "Coordenadora de produção"
+            },
+            {
+              "name": "Auxiliar de produção",
+              "unisex": true
+            },
+            {
+              "name": "Operador de produção",
+              "unisex": false,
+              "female_name": "Operadora de produção"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TI",
+      "groups": [
+        "TI",
+        "Desenvolvedores",
+        "Analistas",
+        "Redes"
+      ],
+      "job_titles": [
+        {
+          "name": "Gerente de TI",
+          "unisex": true
+        },
+        {
+          "name": "Gerente de projetos",
+          "unisex": true
+        }
+      ],
+      "teams": [
+        {
+          "name": "Analistas",
+          "job_titles": [
+            {
+              "name": "Analista de infraestrutura",
+              "unisex": true
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        },
+        {
+          "name": "Desenvolvimento",
+          "job_titles": [
+            {
+              "name": "Desenvolvedor",
+              "unisex": false,
+              "female_name": "Desenvolvedora"
+            },
+            {
+              "name": "Programador",
+              "unisex": false,
+              "female_name": "Programadora"
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        },
+        {
+          "name": "Desenvolvimento Client-side",
+          "job_titles": [
+            {
+              "name": "Desenvolvedor",
+              "unisex": false,
+              "female_name": "Desenvolvedora"
+            },
+            {
+              "name": "Programador",
+              "unisex": false,
+              "female_name": "Programadora"
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        },
+        {
+          "name": "Desenvolvimento Server-side",
+          "job_titles": [
+            {
+              "name": "Desenvolvedor",
+              "unisex": false,
+              "female_name": "Desenvolvedora"
+            },
+            {
+              "name": "Programador",
+              "unisex": false,
+              "female_name": "Programadora"
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        },
+        {
+          "name": "Front-end",
+          "job_titles": [
+            {
+              "name": "Desenvolvedor",
+              "unisex": false,
+              "female_name": "Desenvolvedora"
+            },
+            {
+              "name": "Programador",
+              "unisex": false,
+              "female_name": "Programadora"
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        },
+        {
+          "name": "Back-end",
+          "job_titles": [
+            {
+              "name": "Desenvolvedor",
+              "unisex": false,
+              "female_name": "Desenvolvedora"
+            },
+            {
+              "name": "Programador",
+              "unisex": false,
+              "female_name": "Programadora"
+            },
+            {
+              "name": "Analista de sistemas",
+              "unisex": true
+            },
+            {
+              "name": "Analista de desenvolvedor",
+              "unisex": false,
+              "female_name": "Analista de desenvolvedora"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
