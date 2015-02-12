@@ -1,22 +1,4 @@
 departments:
-  "Coordenação":
-  "Departamento Pessoal":
-  "Desenvolvimento":
-  "Design":
-  "Financeiro":
-  "Geral":
-  "Informática":
-  "Infraestrutura":
-  "Ouvidoria":
-  "Produção":
-  "Recepção":
-  "Recepção Geral":
-  "Recursos Humanos":
-  "Secretaria":
-  "Secretaria-Geral":
-  "Serviço de atendimento ao consumidor":
-  "Suporte":
-  "TI":
 
 "Diretores",
          "Recusos Humanos",
@@ -50,30 +32,10 @@ departments:
         ]
 #
 #departments:
-#Administrativo:
-#    teams: []
-#    groups: []
-#    job_titles: []
 #  Publicidade:
 #    teams: []
 #    groups: []
 #    job_titles: []
-#  Gráfico:
-#    teams: []
-#    groups: []
-#    job_titles: []
-#  Garagem:
-#    teams: []
-#    groups: []
-#    job_titles: ["Motorista", "Mecânico"]
-#  Oficina:
-#    teams: []
-#    groups: []
-#    job_titles: ["Mecânico"]
-#  Almoxarifado:
-#    teams: []
-#    groups: []
-#    job_titles: ["Almoxarife"]
 #  Compras:
 #    teams: []
 #    groups: []

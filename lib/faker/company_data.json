@@ -1,7 +1,31 @@
 {
-  "shifts": ["Geral", "Manhã", "Tarde", "Noite"],
-  "groups": ["Administradores", "Usuários", "Clientes"],
-  "cost_centers": ["Geral", "Gestão", "Projetos", "Investimentos", "Orçamentos", "Produtos", "Departamentos", "Almoxarifado", "Compras", "Manutenção", "Vigilância", "Contabilidade", "Refeitório", "Importação"],
+  "shifts": [
+    "Geral",
+    "Manhã",
+    "Tarde",
+    "Noite"
+  ],
+  "groups": [
+    "Administradores",
+    "Usuários",
+    "Clientes"
+  ],
+  "cost_centers": [
+    "Geral",
+    "Gestão",
+    "Projetos",
+    "Investimentos",
+    "Orçamentos",
+    "Produtos",
+    "Departamentos",
+    "Almoxarifado",
+    "Compras",
+    "Manutenção",
+    "Vigilância",
+    "Contabilidade",
+    "Refeitório",
+    "Importação"
+  ],
   "teams": [],
   "job_titles": [
     {
@@ -271,6 +295,109 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Administrativo",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Almoxarifado",
+      "job_titles": [
+        {
+          "name": "Almoxarife",
+          "unisex": true
+        }
+      ],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Coordenação",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Criação",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Departamento Pessoal",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Financeiro",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Garagem",
+      "job_titles": [],
+      "groups": [],
+      "teams": [
+        {
+          "name": "Mecânicos",
+          "job_titles": []
+        },
+        {
+          "name": "Motoristas",
+          "job_titles": []
+        }
+      ]
+    },
+    {
+      "name": "Geral",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Oficina",
+      "job_titles": [],
+      "groups": [],
+      "teams": [
+        {
+          "name": "Mecânicos",
+          "job_titles": []
+        }
+      ]
+    },
+    {
+      "name": "Ouvidoria",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Produção",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Recepção",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Secretaria",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
+    },
+    {
+      "name": "Suporte",
+      "job_titles": [],
+      "groups": [],
+      "teams": []
     }
   ]
 }
