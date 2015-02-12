@@ -26,7 +26,14 @@
     "Refeitório",
     "Importação"
   ],
-  "teams": [],
+  "teams": [
+    {
+      "name": "Geral"
+    },
+    {
+      "name": "Gerentes"
+    }
+  ],
   "job_titles": [
     {
       "name": "Gerente",
@@ -323,7 +330,24 @@
       "name": "Criação",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Artes",
+          "job_titles": []
+        },
+        {
+          "name": "Design",
+          "job_titles": []
+        },
+        {
+          "name": "Design de produto",
+          "job_titles": []
+        },
+        {
+          "name": "Design gráfico",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Departamento Pessoal",
@@ -335,7 +359,12 @@
       "name": "Financeiro",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Garagem",
@@ -373,31 +402,64 @@
       "name": "Ouvidoria",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "SAC",
+          "job_titles": []
+        },
+        {
+          "name": "Atendimento",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Produção",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Produção",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Recepção",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Recepção",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Secretaria",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Atendimento",
+          "job_titles": []
+        },
+        {
+          "name": "Caixa",
+          "job_titles": []
+        }
+      ]
     },
     {
       "name": "Suporte",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Suporte",
+          "job_titles": []
+        }
+      ]
     }
   ]
 }
