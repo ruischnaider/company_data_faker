@@ -32,6 +32,9 @@
     },
     {
       "name": "Gerentes"
+    },
+    {
+      "name": "Limpeza"
     }
   ],
   "job_titles": [
@@ -307,7 +310,11 @@
       "name": "Administrativo",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Administrativo"
+        }
+      ]
     },
     {
       "name": "Almoxarifado",
@@ -318,13 +325,21 @@
         }
       ],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Almoxarifes"
+        }
+      ]
     },
     {
       "name": "Coordenação",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Coordenadores"
+        }
+      ]
     },
     {
       "name": "Criação",
@@ -353,15 +368,19 @@
       "name": "Departamento Pessoal",
       "job_titles": [],
       "groups": [],
-      "teams": []
+      "teams": [
+        {
+          "name": "Recursos Humanos"
+        }
+      ]
     },
     {
-      "name": "Financeiro",
+      "name": "Compras",
       "job_titles": [],
       "groups": [],
       "teams": [
         {
-          "name": "",
+          "name": "Compras",
           "job_titles": []
         }
       ]
