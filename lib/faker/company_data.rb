@@ -17,7 +17,7 @@ module Faker
         team_all(department).sample
       end
       def team_all(department = nil)
-        teams_default = json_file_hash["teams"]
+        teams_default = json_file_hash["teams"].flatten(1).map { |i| i["name"] }
         if department
           teams = json_file_hash["departments"].select{ |k,v| k["name"] == department }.map{ |i| i["teams"] }.flatten(1).map { |i| i["name"] }
         else
