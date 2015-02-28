@@ -45,6 +45,10 @@
     {
       "name": "Serviços gerais",
       "unisex": true
+    },
+    {
+      "name": "Auxiliar",
+      "unisex": true
     }
   ],
   "departments": [
@@ -333,7 +337,13 @@
     },
     {
       "name": "Coordenação",
-      "job_titles": [],
+      "job_titles": [
+        {
+          "name": "Coordenador",
+          "unisex": false,
+          "female_name": "Coordenadora"
+        }
+      ],
       "groups": [],
       "teams": [
         {
@@ -343,7 +353,22 @@
     },
     {
       "name": "Criação",
-      "job_titles": [],
+      "job_titles": [
+        {
+          "name": "Diretor de arte",
+          "unisex": false,
+          "female_name": "Diretora de arte"
+        },
+        {
+          "name": "Designer",
+          "unisex": true
+        },
+        {
+          "name": "Diretor de criação",
+          "unisex": false,
+          "female_name": "Diretora de criação"
+        }
+      ],
       "groups": [],
       "teams": [
         {
@@ -392,11 +417,22 @@
       "teams": [
         {
           "name": "Mecânicos",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Mecânico",
+              "unisex": false,
+              "female_name": "Mecânica"
+            }
+          ]
         },
         {
           "name": "Motoristas",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Motorista",
+              "unisex": true
+            }
+          ]
         }
       ]
     },
@@ -413,7 +449,13 @@
       "teams": [
         {
           "name": "Mecânicos",
-          "job_titles": []
+          "job_titles": [
+            {
+            "name": "Mecânico",
+            "unisex": false,
+            "female_name": "Mecânica"
+          }
+          ]
         }
       ]
     },
@@ -424,11 +466,21 @@
       "teams": [
         {
           "name": "SAC",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Atendente",
+              "unisex": true
+            }
+          ]
         },
         {
           "name": "Atendimento",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Atendente",
+              "unisex": true
+            }
+          ]
         }
       ]
     },
@@ -450,7 +502,12 @@
       "teams": [
         {
           "name": "Recepção",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Recepcionista",
+              "unisex": false
+            }
+          ]
         }
       ]
     },
@@ -461,11 +518,31 @@
       "teams": [
         {
           "name": "Atendimento",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Atendente",
+              "unisex": true
+            },
+            {
+              "name": "Secretário",
+              "unisex": false,
+              "female_name": "Secretária"
+            }
+          ]
         },
         {
           "name": "Caixa",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Atendente de caixa",
+              "unisex": true
+            },
+            {
+              "name": "Operador de caixa",
+              "unisex": false,
+              "female_name": "Operadora de caixa"
+            }
+          ]
         }
       ]
     },
@@ -476,7 +553,12 @@
       "teams": [
         {
           "name": "Suporte",
-          "job_titles": []
+          "job_titles": [
+            {
+              "name": "Analista de suporte",
+              "unisex": true
+            }
+          ]
         }
       ]
     }
