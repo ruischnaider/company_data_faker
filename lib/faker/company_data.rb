@@ -78,7 +78,7 @@ module Faker
       private
 
       def json_file_hash
-        JSON.parse(File.read("#{File.expand_path( File.dirname( __FILE__ ))}/company_data.json"))
+        ::JSON.parse(::File.read("#{::File.expand_path( ::File.dirname( __FILE__ ))}/company_data.json"))
       end
 
     end
